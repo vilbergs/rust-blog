@@ -1,3 +1,8 @@
+---
+name: How I'm learning Rust
+date: 2022-11-09
+---
+
 # How I'm learning Rust
 
 Rust is often considered a somewhat hard language to learn, and people often leave it behind as it can be quite hard to feel productive with it when starting out. It certainly feels that way for me. I'm still incredibly interested in the language and I find myself constantly gravitating towards educational material around it.

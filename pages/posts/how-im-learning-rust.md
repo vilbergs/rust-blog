@@ -1,5 +1,6 @@
 ---
 name: How I'm learning Rust
+slug: how-im-learning-rust
 date: 2022-11-09
 ---
 

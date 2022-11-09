@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="./tailwind.css" />
   </head>
   <body class="font-serif">
-    <main class="flex flex-col py-6 p-4">
-      <section class="max-w-3xl mx-auto prose prose-xl">{{ content }}</section>
+    <main class="py-6 px-4">
+      <section class="max-w-3xl mx-auto prose sm:prose-xl">
+        {{ content }}
+      </section>
 
-      <section class="flex-grow">
+      <section class="flex-grow mt-6">
+        <h2 class="text-3xl bold mb-3">Posts</h2>
         <div class="max-w-3xl mx-auto">
           <ul class="text-lg font-semibold">
             {{ for page in pages.posts }}

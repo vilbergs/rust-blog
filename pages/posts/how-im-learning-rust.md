@@ -16,7 +16,7 @@ Crude as it may sound, the number one rule I've set myself is to simply write ev
 
 This may sound uninspiring or unsatisfying, and it definitely is sometimes. But I just need to remind myself that my ultimate goal right now is to learn Rust, and I'm sure I'll thank myself in the end despite simple projects taking much longer to finish.
 
-## Don't Write _Eveything_ in Rust
+## Don't Write _Everything_ in Rust
 
 Of course, there's always an exception to every rule. While Rust is an incredibly versatile language, there are situations where it may just be downright silly to implement certain things in it. For me this is in web-related scenarios where other languages are more mature or even standard. For example I will still be using JavaScript to implement interactivity in web-projects. Despite things like WebAssembly and Yew making DOM manipulation possible in Rust I think that using the native solution for the browser is more reasonable.
 

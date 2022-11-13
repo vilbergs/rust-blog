@@ -9,9 +9,7 @@
   </head>
   <body class="font-serif">
     <main class="py-6 px-4">
-      <section class="max-w-3xl mx-auto prose sm:prose-xl">
-        {{ content }}
-      </section>
+      <section class="max-w-3xl mx-auto prose sm:prose-xl">{ content }</section>
 
       <section class="flex-grow mt-6 max-w-3xl mx-auto">
         <h2 class="text-3xl bold mb-3">Posts</h2>
@@ -20,7 +18,7 @@
             {{ for page in pages.posts }}
             <li>
               <a class="hover:underline" href="/posts/{page.frontmatter.slug}">
-                {page.frontmatter.date} - {page.frontmatter.name}
+                {page.date} - {page.frontmatter.name}
               </a>
             </li>
             {{ endfor }}

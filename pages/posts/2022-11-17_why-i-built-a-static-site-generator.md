@@ -3,6 +3,8 @@ name: 'Stilla: Why I built (yet another) static site generator'
 slug: why-i-built-a-static-site-generator
 ---
 
+# Stilla: Why I built (yet another) static site generator
+
 I knew I wanted to blog about my journey to learn Rust, if only to have a sort of journal that I could look back on as I become more proficient in the language. I could have spun up a static site from any of the number of JavaScript frameworks out there in a matter of seconds, but as I outlined in my post about [how I'm learning rust](/posts/how-im-learning-rust) I have prohibited myself from actually using JavaScript as a main tool for any of my endeavors.
 
 Rust is very capable within the web sphere and there are a plethora of frameworks to build production ready web solutions in the language. However, none of them really fit my needs for a basic blog site.
